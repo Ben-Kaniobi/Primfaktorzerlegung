@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="elf" artifactName="Primfaktorzerlegung" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009" name="Debug" parent="com.bfh.carmeide.config.gnu.yagarto.elf.debug">
+<folderInfo id="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009." name="/" resourcePath="">
+<toolChain id="com.bfh.carmeide.toolchain.gnu.yagarto.elf.debug.109675527" name="ARM GCC" superClass="com.bfh.carmeide.toolchain.gnu.yagarto.elf.debug">
+<targetPlatform id="com.bfh.carmeide.target.gnu.platform.yagarto.elf.debug.187317607" name="Debug Platform" superClass="com.bfh.carmeide.target.gnu.platform.yagarto.elf.debug"/>
+<builder buildPath="${workspace_loc:/Primfaktorzerlegung/Debug}" id="com.bfh.carmeide.tool.gnu.builder.yagarto.elf.debug.263926548" managedBuildOn="true" name="CDT Internal Builder.Debug" superClass="com.bfh.carmeide.tool.gnu.builder.yagarto.elf.debug"/>
+<tool id="com.bfh.carmeide.tool.gnu.cpp.compiler.yagarto.elf.debug.1546926282" name="ARM-GCC C++-Compiler" superClass="com.bfh.carmeide.tool.gnu.cpp.compiler.yagarto.elf.debug">
+<option id="gnuarm.cpp.compiler.option.include.paths.460899067" superClass="gnuarm.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/include&quot;"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.c.compiler.yagarto.elf.debug.1386292083" name="ARM-GCC C-Compiler" superClass="com.bfh.carmeide.tool.gnu.c.compiler.yagarto.elf.debug">
+<option id="gnuarm.c.compiler.option.include.paths.957179995" superClass="gnuarm.c.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/include&quot;"/>
+</option>
+<inputType id="com.bfh.carmeide.tool.gnu.c.compiler.input.1759773045" superClass="com.bfh.carmeide.tool.gnu.c.compiler.input"/>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.c.linker.yagarto.elf.debug.1222177094" name="ARM-GCC C-Linker" superClass="com.bfh.carmeide.tool.gnu.c.linker.yagarto.elf.debug">
+<option id="gnuarm.c.link.option.linkerscript.542446752" superClass="gnuarm.c.link.option.linkerscript" value="../linkerscripts/ldscript_ram" valueType="string"/>
+<option id="gnuarm.c.link.option.paths.1793653223" superClass="gnuarm.c.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/lib&quot;"/>
+</option>
+<option id="gnuarm.c.link.option.libs.1820646515" superClass="gnuarm.c.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="BSP"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.cpp.linker.yagarto.elf.debug.1956180803" name="ARM-GCC C++-Linker" superClass="com.bfh.carmeide.tool.gnu.cpp.linker.yagarto.elf.debug">
+<option id="gnuarm.cpp.link.option.linkerscript.194061265" superClass="gnuarm.cpp.link.option.linkerscript" value="../linkerscripts/ldscript_ram" valueType="string"/>
+<option id="gnuarm.cpp.link.option.paths.834488213" superClass="gnuarm.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/lib&quot;"/>
+</option>
+<option id="gnuarm.cpp.link.option.libs.597777559" superClass="gnuarm.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="BSP"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.assembler.yagarto.elf.debug.1438475839" name="ARM-GCC Assembler" superClass="com.bfh.carmeide.tool.gnu.assembler.yagarto.elf.debug">
+<inputType id="com.bfh.carmeide.tool.gnu.assembler.input.538397019" superClass="com.bfh.carmeide.tool.gnu.assembler.input"/>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.archiver.yagarto.base.558258133" name="ARM-GCC Archiver" superClass="com.bfh.carmeide.tool.gnu.archiver.yagarto.base"/>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-elf-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<scannerConfigBuildInfo instanceId="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009;com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009.">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile"/>
+<profile id="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-elf-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</scannerConfigBuildInfo>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+<cconfiguration id="com.bfh.carmeide.config.gnu.yagarto.elf.release.1460006121">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.bfh.carmeide.config.gnu.yagarto.elf.release.1460006121" moduleId="org.eclipse.cdt.core.settings" name="Release">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="elf" artifactName="Primfaktorzerlegung" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="com.bfh.carmeide.config.gnu.yagarto.elf.release.1460006121" name="Release" parent="com.bfh.carmeide.config.gnu.yagarto.elf.release">
+<folderInfo id="com.bfh.carmeide.config.gnu.yagarto.elf.release.1460006121." name="/" resourcePath="">
+<toolChain id="com.bfh.carmeide.toolchain.gnu.yagarto.elf.release.905191835" name="ARM GCC" superClass="com.bfh.carmeide.toolchain.gnu.yagarto.elf.release">
+<targetPlatform id="com.bfh.carmeide.target.gnu.platform.yagarto.elf.release.725973544" name="Debug Platform" superClass="com.bfh.carmeide.target.gnu.platform.yagarto.elf.release"/>
+<builder buildPath="${workspace_loc:/Primfaktorzerlegung/Release}" id="com.bfh.carmeide.tool.gnu.builder.yagarto.elf.release.221805102" managedBuildOn="true" name="CDT Internal Builder.Release" superClass="com.bfh.carmeide.tool.gnu.builder.yagarto.elf.release"/>
+<tool id="com.bfh.carmeide.tool.gnu.cpp.compiler.yagarto.elf.release.316209008" name="ARM-GCC C++-Compiler" superClass="com.bfh.carmeide.tool.gnu.cpp.compiler.yagarto.elf.release">
+<option id="gnuarm.cpp.compiler.option.include.paths.944912124" superClass="gnuarm.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/include&quot;"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.c.compiler.yagarto.elf.release.2035913976" name="ARM-GCC C-Compiler" superClass="com.bfh.carmeide.tool.gnu.c.compiler.yagarto.elf.release">
+<option id="gnuarm.c.compiler.option.include.paths.1688745530" superClass="gnuarm.c.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/include&quot;"/>
+</option>
+<inputType id="com.bfh.carmeide.tool.gnu.c.compiler.input.372139244" superClass="com.bfh.carmeide.tool.gnu.c.compiler.input"/>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.c.linker.yagarto.elf.release.1544157093" name="ARM-GCC C-Linker" superClass="com.bfh.carmeide.tool.gnu.c.linker.yagarto.elf.release">
+<option id="gnuarm.c.link.option.linkerscript.1435189513" superClass="gnuarm.c.link.option.linkerscript" value="../linkerscripts/ldscript_ram" valueType="string"/>
+<option id="gnuarm.c.link.option.paths.387667714" superClass="gnuarm.c.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/lib&quot;"/>
+</option>
+<option id="gnuarm.c.link.option.libs.375626542" superClass="gnuarm.c.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="BSP"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.cpp.linker.yagarto.elf.release.864246703" name="ARM-GCC C++-Linker" superClass="com.bfh.carmeide.tool.gnu.cpp.linker.yagarto.elf.release">
+<option id="gnuarm.cpp.link.option.linkerscript.330315510" superClass="gnuarm.cpp.link.option.linkerscript" value="../linkerscripts/ldscript_ram" valueType="string"/>
+<option id="gnuarm.cpp.link.option.paths.950092817" superClass="gnuarm.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CarmeBSP_Home}/lib&quot;"/>
+</option>
+<option id="gnuarm.cpp.link.option.libs.687414246" superClass="gnuarm.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="BSP"/>
+</option>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.assembler.yagarto.elf.release.1214038610" name="ARM-GCC Assembler" superClass="com.bfh.carmeide.tool.gnu.assembler.yagarto.elf.release">
+<inputType id="com.bfh.carmeide.tool.gnu.assembler.input.904771962" superClass="com.bfh.carmeide.tool.gnu.assembler.input"/>
+</tool>
+<tool id="com.bfh.carmeide.tool.gnu.archiver.yagarto.base.1713126833" name="ARM-GCC Archiver" superClass="com.bfh.carmeide.tool.gnu.archiver.yagarto.base"/>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-elf-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<scannerConfigBuildInfo instanceId="com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009;com.bfh.carmeide.config.gnu.yagarto.elf.debug.1670299009.">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile"/>
+<profile id="com.bfh.carmeide.ARMGCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-elf-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</scannerConfigBuildInfo>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="Primfaktorzerlegung.com.bfh.carmeide.project.arm.yagarto.elf.875387624" name="Executable" projectType="com.bfh.carmeide.project.arm.yagarto.elf"/>
+</storageModule>
+</cproject>
